@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+    .full{
+        flex-direction: column;
+    }
+}
+@media (max-width: 640px) {
+    .onediv{
+        flex-direction: column;
+    }
+}

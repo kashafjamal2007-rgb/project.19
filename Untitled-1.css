@@ -1,0 +1,31 @@
+.iconone p:first-child::before{
+    content: "\f09a";
+    content: "\f099";
+    
+    content: "\f16d";
+    margin-top: 10px;
+      font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.iconone p:nth-child(2)::before{
+     content: "\f09a";
+    content: "\f099";
+    content: "\f16d";
+    margin-top: 10px;
+      font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.iconone p:last-child::before{
+     content: "\f09a";
+    content: "\f099";
+    content: "\f16d";
+     margin-top: 10px;
+      font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    font-size: 12px;
+}

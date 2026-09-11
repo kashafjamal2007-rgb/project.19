@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+     /* display: flex;
+    justify-content: center;  */
+    align-items: center;
+    text-align: center;
+
+    font-family: "Work Sans", sans-serif;
+    background-color: #e0e5eb;
+    width: 100%;
+    height: 350px;
+    height: 100%;
+}
+
+.outer {
+
+    align-items: center;
+    text-align: center;
+    background-color: #3f57ff;
+    height: 370px;
+    width: 100%;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 30px;
+}
+
+.img1 {
+    background-image: url('img/one.png');
+    background-size: cover;
+    background-position: top center;
+    height: 280px;
+    width: 265px;
+}
+
+.img2 {
+    background-image: url('img/two.png');
+    background-size: cover;
+    background-position: top center;
+    height: 280px;
+    width: 265px;
+}
+
+.img3 {
+    background-image: url('img/three.png');
+    background-size: cover;
+    background-position: top center;
+    height: 280px;
+    width: 265px;
+}
+
+.iconone {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.icontwo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.iconthree {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.team {
+    font-size: 30px;
+    padding: 45px;
+    color: white;
+
+}
+
+.textone {
+   
+    /* margin-top: -60px; */
+
+}
+
+.one {
+    padding: 15px;
+    color: #3f57ff;
+}
+
+.texttwo {
+   
+
+}
+
+.two {
+    padding: 15px;
+    color: #3f57ff;
+}
+
+.textthree {
+   
+}
+
+.three {
+    padding: 15px;
+    color: #3f57ff;
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-color: white;
+    padding: 20px;
+}
+
+.boxone {
+    margin-top: -60px;
+    background-color: white;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxtwo {
+    margin-top: -60px;
+    background-color: white;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.boxthree {
+    margin-top: -60px;
+    background-color: white;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.onediv{
+    display: flex;
+ column-gap: 40px;
+}
+.iconone{  
+    padding: 20px;
+}
+.icontwo{
+    padding: 20px;
+}
+.iconthree{
+    padding: 20px;
+}
+.first:hover .boxone{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+} 
+.secound:hover .boxtwo{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.third:hover .boxthree{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
