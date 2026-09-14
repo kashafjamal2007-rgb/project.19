@@ -36,7 +36,7 @@ body {
 }
 
 .img1 {
-    background-image: url('img/one.png');
+    background-image: url('two.png');
     background-size: cover;
     background-position: top center;
     height: 280px;
@@ -44,7 +44,7 @@ body {
 }
 
 .img2 {
-    background-image: url('img/two.png');
+    background-image: url('three.png');
     background-size: cover;
     background-position: top center;
     height: 280px;
@@ -52,7 +52,7 @@ body {
 }
 
 .img3 {
-    background-image: url('img/three.png');
+    background-image: url('three.png');
     background-size: cover;
     background-position: top center;
     height: 280px;
