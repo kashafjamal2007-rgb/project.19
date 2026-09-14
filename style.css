@@ -5,7 +5,7 @@
 }
 
 body {
-     /* display: flex;
+    /* display: flex;
     justify-content: center;  */
     align-items: center;
     text-align: center;
@@ -16,7 +16,7 @@ body {
     height: 350px;
     height: 100%;
 }
-
+   
 .outer {
 
     align-items: center;
@@ -91,7 +91,7 @@ body {
 }
 
 .textone {
-   
+
     /* margin-top: -60px; */
 
 }
@@ -101,19 +101,14 @@ body {
     color: #3f57ff;
 }
 
-.texttwo {
-   
-
-}
+.texttwo {}
 
 .two {
     padding: 15px;
     color: #3f57ff;
 }
 
-.textthree {
-   
-}
+.textthree {}
 
 .three {
     padding: 15px;
@@ -180,30 +175,37 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.onediv{
+
+.onediv {
     display: flex;
- column-gap: 40px;
+    column-gap: 40px;
 }
-.iconone{  
+
+.iconone {
     padding: 20px;
 }
-.icontwo{
+
+.icontwo {
     padding: 20px;
 }
-.iconthree{
+
+.iconthree {
     padding: 20px;
 }
-.first:hover .boxone{
+
+.first:hover .boxone {
     background-color: black;
     color: white;
     transition: 0.5s;
-} 
-.secound:hover .boxtwo{
+}
+
+.secound:hover .boxtwo {
     background-color: black;
     color: white;
     transition: 0.5s;
 }
-.third:hover .boxthree{
+
+.third:hover .boxthree {
     background-color: black;
     color: white;
     transition: 0.5s;
